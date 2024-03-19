@@ -25,45 +25,45 @@ const LeftSidebar = () => {
                   <h1 className='font-semibold text-lg mx-3'>Home</h1>
                 </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/explore" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <FaSearch size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Explore</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/notifications" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <IoNotifications size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Notifications</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/messages" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <FaMessage size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Messages</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/grok" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <RiEditBoxLine size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Grok</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/lists" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <FaClipboardList size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Lists</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/bookmarks" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <IoBookmarkSharp size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Bookmarks</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/communities" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <MdPeopleAlt size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Communities</h1>
-                </div>
+                </Link>
 
-                <div className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                <Link to="/premium" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <BsTwitterX size={"20px"}/>
                   <h1 className='font-semibold text-lg mx-3'>Premium</h1>
-                </div>
+                </Link>
 
                 <Link to="/profile" className='flex items-center my-2 py-2 px-2 rounded-full hover:bg-gray-200 cursor-pointer'>
                   <CgProfile size={"20px"}/>
